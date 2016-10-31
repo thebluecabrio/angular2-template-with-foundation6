@@ -9,6 +9,6 @@ describe('angular2-template App', function() {
 
   it('should display message saying app works', () => {
     page.navigateTo();
-    expect(page.getParagraphText()).toEqual('app works!');
+    expect(page.getParagraphText()).toEqual('The Blue Cabrio!');
   });
 });
